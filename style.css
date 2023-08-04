@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+  
+}
+
+ nav {
+    background-color: red;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+ }
+ 
+ img{
+    height: 200px;
+    width: auto;
+}
+ 
+nav.item a {
+    padding: 10px 15px;
+}
+
+nav.item a:hover {
+    background-color: #333; 
+    color: white;
+}
+
+ a {
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+ }
+
+#message {
+    color: white;
+    font-size: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: end;
+}
+
+#time {
+    font-size: 50%;
+    margin: 0 1vw;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: end;
+}
+
+@media (max-width: 1030px){
+
+}
+
+@media (max-width: 1030px){
+    
+}
